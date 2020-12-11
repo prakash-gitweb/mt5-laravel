@@ -1,0 +1,25 @@
+{
+    "name": "brokingtools/laravel-mt5",
+    "description": "Metatrader 5 Web API Wrapper for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brokingtools",
+            "email": "support@brokingtools.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Brokingtools\\LaravelMt5\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brokingtools\\LaravelMt5\\LaravelMt5Provider"
+            ]
+        }
+    }
+}
